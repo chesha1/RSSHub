@@ -20,7 +20,10 @@ export const route: Route = {
     radar: [
         {
             source: ['www.zhihu.com/people/:id'],
-            target: '/people/activities/:id',
+            // target: (params: any, url: string): string => {
+            //     const a = '/xhu/people/activities/example';
+            //     return a;
+            // },
         },
     ],
     name: 'xhu - 用户动态',
